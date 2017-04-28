@@ -8,7 +8,7 @@ import csv
 import cgi, cgitb
 cgitb.enable()
 
-<host>/archival.status.html'
+URL='<URL>'
 s = urllib2.urlopen(URL)
 test = s.read()
 soup = BeautifulSoup(test)
