@@ -8,7 +8,7 @@ import csv
 import cgi, cgitb
 cgitb.enable()
 
-URL = 'http://gsmon.grid.lhr1.inmobi.com/dcp.pipeline.html'
+URL = '<URL>'
 s = urllib2.urlopen(URL)
 test = s.read()
 soup = BeautifulSoup(test)
