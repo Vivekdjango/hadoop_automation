@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>SSI Test Page</title>
+
+</head>
+<body>
+
+<!--#include file="menu.shtml" -->
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <link rel="stylesheet" href="styles.css">
+	<title>NOC-Pipeline</title>
+
+<!-- Created by akarsh and vivek (noc) -->
+
+
+</head>
+<body>
+
+<div id='cssmenu'>
+
+<ul>
+
+  <li class='has-sub'><a href='index.html'><span>LDA</span></a>
+
+      <ul style="height:300px;overflow:auto;">
+         <li class='has-sub'><a href='metadata.html'><span>Metadata</span></a>
+         </li>
+         <li class='has-sub'><a href='dimstore_lda.html'><span>Dimstore-lda</span></a>
+         </li>
+         <li class='has-sub'><a href='rc_coversion.html'><span>Rc-conversion</span></a>
+         </li>
+
+         <li class='has-sub'><a href='enhancer.html'><span>Enhancer</span></a>
+         </li>
+	<li class='has-sub'><a href='dpbase.html'><span>Dpbase</span></a>
+         </li>
+         <li class='has-sub'><a href='rtbi_lda.html'><span>RTBI_Lda</span></a>
+         </li>
+
+	<li class='has-sub'><a href='richmedia.html'><span>Richmedia_lda</span></a>
+         </li>
+         <li class='has-sub'><a href='download.html'><span>Download</span></a>
+         </li>
+         <li class='has-sub'><a href='rr_nob.html'><span>RR-nob</span></a>
+         </li>
+
+         <li class='has-sub'><a href='brand_ci.html'><span>Brand-CI</span></a>
+         </li>
+	<li class='has-sub'><a href='rtbd_ci.html'><span>Rtbd-CI</span></a>
+         </li>
+         <li class='has-sub'><a href='ix_ci.html'><span>IX-CI</span></a>
+         </li>
+         <li class='has-sub'><a href='perf_ci.html'><span>Perf-CI</span></a>
+         </li>
+
+         <li class='has-sub'><a href='ifc_ci.html'><span>IFC-CI</span></a>
+         </li>
+	<li class='has-sub'><a href='suupply_ci.html'><span>Supply-CI</span></a>
+         </li>
+	<li class='has-sub'><a href='lda_sub.html'><span>lda</span></a>
+         </li>
+    </ul>
+	
+ </li>
+
+ 
+ <li class='has-sub'><a href='yoda.html'><span>YODA</span></a>
+      <ul>
+         <li class='has-sub'><a href='part_reg.html'><span>Part_reg</span></a>
+         </li>
+         <li class='has-sub'><a href='hourly.html'><span>Hourly</span></a>
+         </li>
+         <li class='has-sub'><a href='daily.html'><span>Daily</span></a>
+         </li>
+
+     </ul>
+ </li>
+  
+ 
+ <li class='has-sub'><a href='dcp.html'><span>DCP</span></a>
+ </li>
+
+
+ <li class='has-sub'><a href='rtbi.html'><span>RTBI</span></a>
+ </li>
+
+ <li class='has-sub'><a href='dimstore.html'><span>Dimstore</span></a>
+ </li>
+
+ <li class='has-sub'><a href='dwh.html'><span>DWH</span></a>
+     <ul>
+         <li class='has-sub'><a href='dwh_hourly.html'><span>Hourly</span></a>
+         </li>
+         <li class='has-sub'><a href='dwh_daily.html'><span>Daily</span></a>
+         </li>
+     </ul>
+
+ </li>
+ 
+ <li class='has-sub'><a href='cbp.html'><span>CBP</span></a>
+     <ul>
+         <li class='has-sub'><a href='rc.html'><span>RC</span></a>
+         </li>
+         <li class='has-sub'><a href='cbp_enhancer.html'><span>CBP-Enhancer</span></a>
+         </li>
+     </ul>
+ </li>
+
+  <li class='has-sub'><a href='richmedia_summary_health.html'><span>Richmedia_summary</span></a>
+ </li>
+
+ <li class='has-sub'><a href='archival.html'><span>Archival</span></a>
+     <ul>
+         <li class='has-sub'><a href='s3.html'><span>S3</span></a>
+         </li>
+         <li class='has-sub'><a href='archival_sub.html'><span>archival</span></a>
+         </li>
+     </ul>
+ </li>
+
+ <li class='has-sub'><a href='oozie.html' style="color:green; font-weight:bold"><span>Oozie Status</span></a>
+ </li>
+
+
+</ul>
+</div>
+
+
+
+<form method="POST" action="logout.php">
+<h2 style="text-align: right; margin-top: -28px;"><br /> <input type="submit" value="Logout" style="width: 108px; height: 40px; background-color=#312E2E; color=white; font:initial;-webkit-border-radius: 0 0 8px 8px;"/></h2>
+
+</form>
+
+
+
+<h2 style="padding-left: 90px;">&nbsp;</h2>
+<h2 style="padding-left: 90px;">&nbsp;</h2>
+<h2 style="padding-left: 90px;"><strong>RR-NOB Failed Jobs:</strong></h2>
+<div class="sub-boxed">
+<iframe style="width:100%" src="/cgi-bin/Pipeline/LDA/RR/RR_d.py" >
+</iframe>
+</div>
+
+
+</div>
+
+
+<form action="/cgi-bin/Pipeline/LDA/RR/RR_run.py" target="_blank" method="POST" >
+    <input type="submit" value="Run!" style="width:120px; height:50px; position: absolute;
+ display: inline-block;
+    margin-left: 83%;
+    border-radius: 8px;
+    box-shadow: 0 6px 0 #094661, 0 35px 20px rgba(0, 0, 0, .35);
+    font-size: 22px;
+margin-top:-3%;
+font-weight:800;
+background-color: #EEEFF3;
+
+color: #1ea725;" ></input>
+</form>
+
+
+
+
+
+</body>
+<html>

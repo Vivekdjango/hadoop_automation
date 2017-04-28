@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+
+<title>Noc-pipeline</title>
+
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen, projection, tv " />
+
+</head>
+
+<body class="news">
+  
+<header>
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="#">Home</a></li>
+        <li class="tutorials"><a href="#">Test</a></li>
+        <li class="about"><a href="#">Test 2</a></li>
+        <li class="news"><a href="#">Test 3</a></li>
+        <li class="contact"><a href="#">Test 4</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+<p>&nbsp;</p>
+<h2 style="padding-left: 90px;"><strong>Failed Jobs:</strong></h2>
+
+<!--
+<div class="button" style="width:60px;height:30px;" >
+<button type="button">Run!</button>
+</div>
+<a class="button">
+    <span>Run</span>
+</a>
+
+-->
+
+<form action="submit.php">
+    <input type="submit" value="Open Script">
+</form>
+<!--
+<form method="post" action="submit.php">
+<input class="button" type="submit" value="Run" />
+</form>
+-->
+
+
+
+<div class="Failedboxed">
+<iframe src="http://localhost/cgi-bin/gold.py">
+</iframe>
+</div>
+
+<p>&nbsp;</p>
+<h2 style="padding-left: 90px;"><strong>Details:</strong></h2>
+
+<div class="Detailsboxed">
+  Details are:
+</div>
+
+
+
+<div id="footer">
+Copyright © akarsh.com
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+ 04:11:18 up 3 days, 10:29,  8 users,  load average: 0.69, 1.09, 1.37
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+vivek    :0       :0               Sun17   ?xdm?   9:32m  0.68s /sbin/upstart --user
+vivek    pts/1    :0               03:51   15:26   0.16s  0.10s ssh vivek.sinha@krgw4001.grid.uh1.inmobi.com
+vivek    pts/5    :0               22:47   11:46   0.90s  0.84s ssh vivek.sinha@nocmon01.ops.ev1.inmobi.com
+vivek    pts/12   :0               03:55   14:09   0.09s  0.01s ssh vivek.sinha@opgw4001.grid.hkg1.inmobi.com
+vivek    pts/13   :0               03:57   13:01   0.11s  0.01s ssh vivek.sinha@ergw4001.grid.lhr1.inmobi.com
+vivek    pts/14   :0               03:58   12:03   0.09s  0.01s ssh vivek.sinha@tzgw4001.grid.uj1.inmobi.com
+vivek    pts/15   :0               00:48    3:58   0.32s  0.15s ssh vivek.sinha@glgw4006.grid.uh1.inmobi.com
+vivek    pts/16   :0               04:07    6.00s  0.11s  0.00s sh -c uptime <input_file|w >output_file

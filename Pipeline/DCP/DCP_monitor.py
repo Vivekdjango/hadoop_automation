@@ -1,0 +1,22 @@
+#!/usr/bin/python
+print "Content-Type: text/html"
+print ""
+from bs4 import BeautifulSoup
+import subprocess
+import urllib2
+import csv
+import cgi, cgitb
+cgitb.enable()
+
+URL = 'http://gsmon.grid.lhr1.inmobi.com/dcp.pipeline.html'
+s = urllib2.urlopen(URL)
+test = s.read()
+soup = BeautifulSoup(test)
+data = soup.find('pre')
+lines = soup.pre.string.splitlines()
+for line in csv.reader(lines, skipinitialspace=True):
+	for a in line:
+		new = a.split('/')
+            	print new[0],new[1],new[3]
+
+
